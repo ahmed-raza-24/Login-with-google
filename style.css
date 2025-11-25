@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 450px;
+  background-color: #fff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+#displayprofile {
+  font-size: 38px;
+  font-weight: bold;
+  color: #4285F4;  /* Google blue */
+  margin-bottom: 25px;
+}
+
+#gmail {
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  border-radius: 6px;
+  background-color: #4285F4;
+  color: #fff;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#gmail:hover {
+  background-color: #3367D6;
+}
+
+#textdisplay {
+  margin-top: 20px;
+  padding: 10px;
+  color: #333;
+  font-size: 14px;
+  min-height: 30px;
+}
